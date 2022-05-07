@@ -1,0 +1,16 @@
+#splash-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+#splash-logo {
+  width: 25% !important;
+}
+#splash-h2 {
+  font-size: 17px !important;
+  padding-top: 8px;
+  color: #334048 !important;
+}
