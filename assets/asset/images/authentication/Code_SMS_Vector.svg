@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 156.206 105.737">
+  <g id="Code_SMS_Vector" transform="translate(0 0)">
+    <rect id="Rectangle_1995" data-name="Rectangle 1995" width="13.794" height="0.104" transform="translate(21.689 103.122)" fill="#ebebeb"/>
+    <rect id="Rectangle_1996" data-name="Rectangle 1996" width="16.971" height="0.104" transform="translate(49.427 90.915)" fill="#ebebeb"/>
+    <rect id="Rectangle_1997" data-name="Rectangle 1997" width="21.274" height="0.104" transform="translate(0 105.633)" fill="#ebebeb"/>
+    <g id="Group_2149" data-name="Group 2149" transform="translate(17.049 0)">
+      <path id="Path_968" data-name="Path 968" d="M338.306,205.482l6.182,51.1c.5,4.154-1.923,7.9-5.389,8.321l-96.967,11.731c-3.466.418-6.717-2.642-7.221-6.8l-6.182-51.1a8.812,8.812,0,0,1,.123-2.882c.615-2.882,2.63-5.125,5.267-5.445l96.967-11.725c2.636-.32,5.144,1.37,6.416,4.025A8.794,8.794,0,0,1,338.306,205.482Z" transform="translate(-228.664 -178.474)" fill="#ff641e"/>
+      <path id="Path_969" data-name="Path 969" d="M337.63,202.711l-43.982,29.614a16.248,16.248,0,0,1-14.872,1.8L229,215.856c.615-2.882,2.63-5.125,5.267-5.445l96.967-11.725C333.851,198.366,336.358,200.056,337.63,202.711Z" transform="translate(-228.794 -178.474)" fill="#455a64"/>
+      <path id="Path_970" data-name="Path 970" d="M330.474,201.1l-12.635,8.505L313.7,212.4l-10.8,7.276a16.187,16.187,0,0,1-14.509,1.93l-.387-.129-6.059-2.225L268.3,214.239l-6.379-2.341-7.227-2.655-.522-12.776L253,168.075l55.51-2.255,21.158,16.033.221,5.451Z" transform="translate(-238.045 -165.82)" fill="#d4d6d8"/>
+      <g id="Group_2132" data-name="Group 2132" transform="translate(21.788 19.092)" opacity="0.9">
+        <path id="Path_972" data-name="Path 972" d="M326.937,199.477l-61.453,2.495a1.315,1.315,0,0,1-1.364-1.229h0a1.315,1.315,0,0,1,1.229-1.358l61.453-2.495a1.315,1.315,0,0,1,1.364,1.229h0A1.309,1.309,0,0,1,326.937,199.477Z" transform="translate(-264.119 -196.888)" fill="#334048"/>
+        <path id="Path_973" data-name="Path 973" d="M327.467,212.763l-61.453,2.495a1.315,1.315,0,0,1-1.364-1.229h0a1.321,1.321,0,0,1,1.229-1.364l61.453-2.495A1.321,1.321,0,0,1,328.7,211.4h0A1.327,1.327,0,0,1,327.467,212.763Z" transform="translate(-264.323 -202.008)" fill="#334048"/>
+        <path id="Path_974" data-name="Path 974" d="M328.007,226.047l-61.453,2.495a1.315,1.315,0,0,1-1.364-1.229h0a1.309,1.309,0,0,1,1.229-1.358l61.453-2.495a1.309,1.309,0,0,1,1.358,1.229h0A1.309,1.309,0,0,1,328.007,226.047Z" transform="translate(-264.531 -207.13)" fill="#334048"/>
+        <path id="Path_975" data-name="Path 975" d="M323.436,237.07l-4.136,2.79L273.9,241.7l-6.379-2.341a.669.669,0,0,1,.16,0Z" transform="translate(-265.43 -212.377)" fill="#334048"/>
+        <path id="Path_976" data-name="Path 976" d="M319.19,252.834v.049a1.315,1.315,0,0,1-1.229,1.315l-11.375.461-.387-.129-6.059-2.225,17.717-.725a1.315,1.315,0,0,1,1.334,1.254Z" transform="translate(-278.004 -217.97)" fill="#334048"/>
+      </g>
+      <path id="Path_977" data-name="Path 977" d="M364.528,181.853l-14.7-.633-6.459-15.4Z" transform="translate(-272.88 -165.82)" fill="#263238" opacity="0.1"/>
+      <path id="Path_978" data-name="Path 978" d="M364.528,181.853l-14.263-2.44-6.9-13.593Z" transform="translate(-272.88 -165.82)" fill="#455a64"/>
+      <g id="Group_2148" data-name="Group 2148" transform="translate(82.612 6.548) rotate(-7)">
+        <circle id="Ellipse_401" data-name="Ellipse 401" cx="15.177" cy="15.177" r="15.177" transform="translate(0 20.53) rotate(-42.56)" fill="#334048"/>
+        <text id="_1" data-name="1" transform="translate(21.254 27.528)" fill="#fff" font-size="22" font-family="IRANSansMobileFaNum-Bold, 'IRANSansMobile\(FaNum\)'" font-weight="700"><tspan x="-3.166" y="0">1</tspan></text>
+      </g>
+    </g>
+    <g id="freepik--Shadow--inject-3" transform="translate(8.275 95.413)">
+      <ellipse id="Ellipse_406" data-name="Ellipse 406" cx="73.965" cy="3.408" rx="73.965" ry="3.408" transform="translate(0 0)" fill="#656f75"/>
+    </g>
+  </g>
+</svg>
