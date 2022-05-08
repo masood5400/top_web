@@ -1,3 +1,6 @@
+body {
+  margin: 0 !important;
+}
 #splash-div {
   display: flex;
   flex-direction: column;
