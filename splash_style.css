@@ -72,6 +72,9 @@ body {
   background-size: contain;
   background-position: right;
 }
+#footer-text {
+  font-size: 0.6rem;
+}
 #footer-title {
   padding: 6px 0;
 }
@@ -91,7 +94,6 @@ body {
   }
   #footer-text {
     color: #f3f3f3 !important;
-    font-size: 0.6rem;
   }
 }
 
