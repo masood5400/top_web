@@ -44,8 +44,8 @@ body {
   font-size: 1rem !important;
   font-weight: 600 !important;
 }
-#loader-container {
-  position: relative;
+#loader-outer-container {
+  position: relative !important;
   height: 20vh;
   width: 100vw;
 }
