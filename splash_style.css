@@ -2,7 +2,7 @@
   font-family: IRANSans;
   font-style: normal;
   font-weight: normal;
-  src: url("./assets/asset/fonts/iransans/IRANSansMobile\(FaNum\).ttf") format("ttf");
+  src: url("assets/asset/fonts/iransans/IRANSansMobile\(FaNum\).ttf") format("ttf");
 }
 * {
   box-sizing: border-box !important;
