@@ -48,6 +48,7 @@ body {
   bottom: 24px;
   right: 0;
   left: 0;
+  text-align: center;
 }
 #footer-logo {
   display: flex;
@@ -55,10 +56,13 @@ body {
   align-items: center;
 }
 #logo1 {
-  width: 40%;
+  width: 29%;
+  background-repeat: no-repeat;
 }
 #logo2 {
-  width: 40%;
+  width: 33%;
+  height: 92px;
+  background-repeat: no-repeat;
 }
 @media (prefers-color-scheme: dark) {
   #splash-div {
