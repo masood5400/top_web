@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <!--
+  <head>
+    <!--
     If you are serving your web app in a path other than the root, change the
     href value below to reflect the base path you are serving from.
 
@@ -12,121 +11,127 @@
     For more details:
     * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
   -->
-  <!-- <base href="/" /> -->
+    <!-- <base href="/" /> -->
 
-  <meta charset="UTF-8" />
-  <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
-  <meta name="description" content="سوپر اپلیکیشن تاپ" />
+    <meta charset="UTF-8" />
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
+    <meta name="description" content="سوپر اپلیکیشن تاپ" />
 
-  <!-- iOS meta tags & icons -->
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-  <meta name="apple-mobile-web-app-title" content="تاپ" />
-  <link rel="apple-touch-icon" href="icons/Icon-192.png" />
+    <!-- iOS meta tags & icons -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="تاپ" />
+    <link rel="apple-touch-icon" href="icons/Icon-192.png" />
 
-  <title>تاپ</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-  <link rel="stylesheet" href="splash_style.css" />
-  <link rel="manifest" href="manifest.json" />
-  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-messaging.js"></script>
-</head>
+    <title>تاپ</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <link rel="stylesheet" href="splash_style.css" />
+    <link rel="manifest" href="manifest.json" />
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-messaging.js"></script>
+  </head>
 
-<body>
-  <!-- This script installs service_worker.js to provide PWA functionality to
+  <body>
+    <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
-  <div id="splash-div">
-    <img id="splash-logo" src="assets/asset/images/logos/top_logo.svg" alt="logo" />
-    <!-- <div style="font-size: 2rem; font-weight: 900; padding-top: 8px; color: #334048 !important;">اپلیکیشن پرداخت</div> -->
-    <h2 id="splash-h2">اپلیکیشن پرداخت</h2>
-  </div>
-  <script>
-    const firebaseConfig = {
-      apiKey: "AIzaSyCzwa0n9bxiRI3E8SiCRa2dYmjICiVZ5rA",
-      authDomain: "novin-pardazesh.firebaseapp.com",
-      projectId: "novin-pardazesh",
-      storageBucket: "novin-pardazesh.appspot.com",
-      messagingSenderId: "289065116462",
-      appId: "1:289065116462:web:79792aaa4a042d44f490bf",
-    };
-    const x = firebase.initializeApp(firebaseConfig);
-    // firebase.initializeApp(firebaseConfig);
-    let serviceWorkerVersion = null;
-    let scriptLoaded = false;
-    function loadMainDartJs() {
-      if (scriptLoaded) {
-        return;
+    <div id="splash-div">
+      <img
+        id="splash-logo"
+        src="assets/asset/images/logos/top_logo.svg"
+        alt="logo"
+      />
+      <!-- <div style="font-size: 2rem; font-weight: 900; padding-top: 8px; color: #334048 !important;">اپلیکیشن پرداخت</div> -->
+      <h2 id="splash-h2">اپلیکیشن پرداخت</h2>
+    </div>
+    <script>
+      const firebaseConfig = {
+        apiKey: "AIzaSyCzwa0n9bxiRI3E8SiCRa2dYmjICiVZ5rA",
+        authDomain: "novin-pardazesh.firebaseapp.com",
+        projectId: "novin-pardazesh",
+        storageBucket: "novin-pardazesh.appspot.com",
+        messagingSenderId: "289065116462",
+        appId: "1:289065116462:web:79792aaa4a042d44f490bf",
+      };
+      const x = firebase.initializeApp(firebaseConfig);
+      // firebase.initializeApp(firebaseConfig);
+      let serviceWorkerVersion = null;
+      let scriptLoaded = false;
+      function loadMainDartJs() {
+        if (scriptLoaded) {
+          return;
+        }
+        scriptLoaded = true;
+        const scriptTag = document.createElement("script");
+        scriptTag.src = "main.dart.js";
+        scriptTag.type = "application/javascript";
+        document.body.append(scriptTag);
       }
-      scriptLoaded = true;
-      const scriptTag = document.createElement("script");
-      scriptTag.src = "main.dart.js";
-      scriptTag.type = "application/javascript";
-      document.body.append(scriptTag);
-    }
 
-    if ("serviceWorker" in navigator) {
-      // Service workers are supported. Use them.
-      window.addEventListener("load", function () {
-        // Register Firebase push Notifications
-        navigator.serviceWorker
-          .register("/firebase-messaging-sw.js")
-          .then(function (registration) {
-            console.log(
-              "Registration successful, scope is:",
-              registration.scope
-            );
-          })
-          .catch(function (err) {
-            console.log("Service worker registration failed, error:", err);
-          });
-        // Wait for registration to finish before dropping the <script> tag.
-        // Otherwise, the browser will load the script multiple times,
-        // potentially different versions.
-        const serviceWorkerUrl =
-          "flutter_service_worker.js?v=" + serviceWorkerVersion;
-        navigator.serviceWorker.register(serviceWorkerUrl).then((reg) => {
-          function waitForActivation(serviceWorker) {
-            serviceWorker.addEventListener("statechange", () => {
-              if (serviceWorker.state == "activated") {
-                console.log("Installed new service worker.");
-                loadMainDartJs();
-              }
+      if ("serviceWorker" in navigator) {
+        // Service workers are supported. Use them.
+        window.addEventListener("load", function () {
+          // Register Firebase push Notifications
+          navigator.serviceWorker
+            .register("/firebase-messaging-sw.js")
+            .then(function (registration) {
+              console.log(
+                "Registration successful, scope is:",
+                registration.scope
+              );
+            })
+            .catch(function (err) {
+              console.log("Service worker registration failed, error:", err);
             });
-          }
-          if (!reg.active && (reg.installing || reg.waiting)) {
-            // No active web worker and we have installed or are installing
-            // one for the first time. Simply wait for it to activate.
-            waitForActivation(reg.installing ?? reg.waiting);
-          } else if (!reg.active.scriptURL.endsWith(serviceWorkerVersion)) {
-            // When the app updates the serviceWorkerVersion changes, so we
-            // need to ask the service worker to update.
-            console.log("New service worker available.");
-            reg.update();
-            waitForActivation(reg.installing);
-          } else {
-            // Existing service worker is still good.
-            console.log("Loading app from service worker.");
-            loadMainDartJs();
-          }
+          // Wait for registration to finish before dropping the <script> tag.
+          // Otherwise, the browser will load the script multiple times,
+          // potentially different versions.
+          const serviceWorkerUrl =
+            "flutter_service_worker.js?v=" + serviceWorkerVersion;
+          navigator.serviceWorker.register(serviceWorkerUrl).then((reg) => {
+            function waitForActivation(serviceWorker) {
+              serviceWorker.addEventListener("statechange", () => {
+                if (serviceWorker.state == "activated") {
+                  console.log("Installed new service worker.");
+                  loadMainDartJs();
+                }
+              });
+            }
+            if (!reg.active && (reg.installing || reg.waiting)) {
+              // No active web worker and we have installed or are installing
+              // one for the first time. Simply wait for it to activate.
+              waitForActivation(reg.installing ?? reg.waiting);
+            } else if (!reg.active.scriptURL.endsWith(serviceWorkerVersion)) {
+              // When the app updates the serviceWorkerVersion changes, so we
+              // need to ask the service worker to update.
+              console.log("New service worker available.");
+              reg.update();
+              waitForActivation(reg.installing);
+            } else {
+              // Existing service worker is still good.
+              console.log("Loading app from service worker.");
+              loadMainDartJs();
+            }
+          });
+
+          // If service worker doesn't succeed in a reasonable amount of time,
+          // fallback to plaint <script> tag.
+          setTimeout(() => {
+            if (!scriptLoaded) {
+              console.warn(
+                "Failed to load app from service worker. Falling back to plain <script> tag."
+              );
+              loadMainDartJs();
+            }
+          }, 4000);
         });
-
-        // If service worker doesn't succeed in a reasonable amount of time,
-        // fallback to plaint <script> tag.
-        setTimeout(() => {
-          if (!scriptLoaded) {
-            console.warn(
-              "Failed to load app from service worker. Falling back to plain <script> tag."
-            );
-            loadMainDartJs();
-          }
-        }, 4000);
-      });
-    } else {
-      // Service workers not supported. Just drop the <script> tag.
-      loadMainDartJs();
-    }
-  </script>
-</body>
-
+      } else {
+        // Service workers not supported. Just drop the <script> tag.
+        loadMainDartJs();
+      }
+    </script>
+  </body>
 </html>
