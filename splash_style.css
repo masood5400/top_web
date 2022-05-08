@@ -5,6 +5,7 @@
   align-items: center;
   height: 100vh;
   width: 100vw;
+
 }
 
 #splash-logo {
@@ -14,5 +15,25 @@
 #splash-h2 {
   font-size: 17px !important;
   padding-top: 8px;
-  color: #334048 !important;
+
+}
+
+@media (prefers-color-scheme: dark) {
+  #splash-div {
+    background-color: #000000;
+  }
+
+  #splash-h2 {
+    color: #F3F3F3 !important;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  #splash-div {
+    background-color: #F9FAFA;
+  }
+
+  #splash-h2 {
+    color: #334048 !important;
+  }
 }
