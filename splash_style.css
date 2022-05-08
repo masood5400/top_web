@@ -40,7 +40,7 @@ body {
   width: fit-content !important;
 }
 #splash-h2 {
-  font-size: 1.3rem !important;
+  font-size: 1rem !important;
   font-weight: 600 !important;
 }
 #footer {
@@ -60,19 +60,19 @@ body {
   align-items: center;
 }
 #logo1 {
-  width: 40%;
+  width: 45%;
   background-repeat: no-repeat;
-  height: 2rem;
+  height: 2.7rem;
   background-size: contain;
 }
 #logo2 {
-  width: 40%;
+  width: 45%;
   background-repeat: no-repeat;
-  height: 2rem;
+  height: 2.7rem;
   background-size: contain;
 }
 #footer-title {
-  padding: 4px 0;
+  padding: 6px 0;
 }
 @media (prefers-color-scheme: dark) {
   #splash-div {
