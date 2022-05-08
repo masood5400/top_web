@@ -22,7 +22,7 @@
 body {
   margin: 0 !important;
   box-sizing: border-box !important;
-  font-family: IRANSans, Roboto, Arial;
+  font-family: IRANSans, Roboto, Arial !important;
   font-weight: 300;
 }
 #splash-div {
@@ -35,12 +35,13 @@ body {
 }
 
 #splash-logo {
-  width: 25% !important;
+  width: 100% !important;
 }
 
 #splash-h2 {
   font-size: 17px !important;
-  font-weight: 600;
+  font-size: 1.3rem !important;
+  font-weight: 600 !important;
 }
 
 @media (prefers-color-scheme: dark) {
