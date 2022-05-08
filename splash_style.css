@@ -34,12 +34,15 @@ body {
   width: 100vw;
 }
 
+#logo-container {
+  width: fit-content !important;
+}
+
 #splash-logo {
   width: 100% !important;
 }
 
 #splash-h2 {
-  font-size: 17px !important;
   font-size: 1.3rem !important;
   font-weight: 600 !important;
 }
