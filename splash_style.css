@@ -46,11 +46,14 @@ body {
 }
 #loader-container {
   position: relative;
+  height: 20vh;
+  width: 100vw;
 }
 #loader-inner-container {
   text-align: center;
   position: absolute;
   top: 10%;
+  right: 50%;
 }
 #loader-gif {
   width: 10%;
