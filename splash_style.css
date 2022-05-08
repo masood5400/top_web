@@ -50,19 +50,29 @@ body {
   left: 0;
   text-align: center;
 }
+#inner-container {
+  width: fit-content;
+  margin: auto;
+}
 #footer-logo {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 #logo1 {
-  width: 29%;
+  width: 40%;
   background-repeat: no-repeat;
+  height: 2rem;
+  background-size: contain;
 }
 #logo2 {
-  width: 33%;
-  height: 92px;
+  width: 40%;
   background-repeat: no-repeat;
+  height: 2rem;
+  background-size: contain;
+}
+#footer-title {
+  padding: 4px 0;
 }
 @media (prefers-color-scheme: dark) {
   #splash-div {
@@ -80,6 +90,7 @@ body {
   }
   #footer-text {
     color: #f3f3f3 !important;
+    font-size: 0.6rem;
   }
 }
 
