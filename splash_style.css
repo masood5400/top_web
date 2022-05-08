@@ -1,8 +1,20 @@
 @font-face {
   font-family: IRANSans;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   src: url("assets/asset/fonts/iransans/IRANSansMobile\(FaNum\).ttf") format("ttf");
+}
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 500;
+  src: url("assets/asset/fonts/iransans/IRANSansMobile\(FaNum\)_Medium.ttf") format("ttf");
+}
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 600;
+  src: url("assets/asset/fonts/iransans/IRANSansMobile\(FaNum\)_Bold.ttf") format("ttf");
 }
 * {
   box-sizing: border-box !important;
