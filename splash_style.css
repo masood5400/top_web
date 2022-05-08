@@ -2,19 +2,19 @@
   font-family: IRANSans;
   font-style: normal;
   font-weight: 400;
-  src: url("assets/asset/fonts/iransans/IRANSansMobile\(FaNum\).ttf") format("ttf");
+  src: url("assets/asset/fonts/iransans/IRANSansMobile\(FaNum\).ttf") format("woff2");
 }
 @font-face {
   font-family: IRANSans;
   font-style: normal;
   font-weight: 500;
-  src: url("assets/asset/fonts/iransans/IRANSansMobile\(FaNum\)_Medium.ttf") format("ttf");
+  src: url("assets/asset/fonts/iransans/IRANSansMobile\(FaNum\)_Medium.ttf") format("woff2");
 }
 @font-face {
   font-family: IRANSans;
   font-style: normal;
   font-weight: 600;
-  src: url("assets/asset/fonts/iransans/IRANSansMobile\(FaNum\)_Bold.ttf") format("ttf");
+  src: url("assets/asset/fonts/iransans/IRANSansMobile\(FaNum\)_Bold.ttf") format("woff2");
 }
 * {
   box-sizing: border-box !important;
