@@ -4,6 +4,7 @@
     "start_url": ".",
     "display": "standalone",
     "theme_color": "#FF641E",
+    "background_color": "#FF641E",
     "description": "سوپر اپلیکیشن تاپ",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
