@@ -76,7 +76,7 @@ const RESOURCES = {
 "assets/AssetManifest.json": "085777be66fe74e62a76e12ecb4d3280",
 "assets/FontManifest.json": "41c4b461e78d8f2944304bf147f2e56e",
 "assets/fonts/MaterialIcons-Regular.otf": "7e7a6cccddf6d7b20012a548461d5d81",
-"assets/NOTICES": "a0f682f467c5ce171415e4ab3f027891",
+"assets/NOTICES": "557099d0f29bd0409e32c1f1aa568f5f",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/packages/flutter_inappwebview/assets/t_rex_runner/t-rex.css": "5a8d0222407e388155d7d1395a75d5b9",
 "assets/packages/flutter_inappwebview/assets/t_rex_runner/t-rex.html": "16911fcc170c8af1c5457940bd0bf055",
@@ -91,12 +91,12 @@ const RESOURCES = {
 "canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "firebase-messaging-sw.js": "08223be5dbde565abab764d5e1a0c739",
-"icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
-"icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "6ad8a0da91e7d76e8031e4ff8b09f4a3",
-"/": "6ad8a0da91e7d76e8031e4ff8b09f4a3",
-"main.dart.js": "43d051de9e71f2ffaa5db99b0acdbc54",
-"manifest.json": "f933f14f2c261abe1c1f306fbb37c987",
+"icons/ic_launcher.png": "9eab5639e4476e0b183c8a25480dfd20",
+"index.html": "2afad1e875754acc7bd7c501bc685a60",
+"/": "2afad1e875754acc7bd7c501bc685a60",
+"main.dart.js": "66e4f50f6045626c707b35bceb77dfce",
+"manifest.json": "c832959f0c7b7694d0d142169f9edf34",
+"splash_style.css": "0be488bcba16e79f23900cba1b657cc1",
 "version.json": "78e161f81f6945049f273ab515cd3566"
 };
 
