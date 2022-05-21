@@ -104,9 +104,9 @@ const RESOURCES = {
 "icons/icon-72x72.png": "1ab04f66928cdbd2004b06b1aac15ac4",
 "icons/icon-96x96.png": "4b0c158c661300e9b44f5a62529b7441",
 "icons/safari-pinned-tab.svg": "2d955c7c6c25b4e605d8a32ce1f4b82e",
-"index.html": "5d5e11a6de45c8e0617893ede4d169ef",
-"/": "5d5e11a6de45c8e0617893ede4d169ef",
-"main.dart.js": "02db3790e656b71361b27b14c86a140e",
+"index.html": "5d4c90d373649cf819fc62b77c7f775b",
+"/": "5d4c90d373649cf819fc62b77c7f775b",
+"main.dart.js": "e9025f221cec8178eda9226d25c336bd",
 "manifest.json": "aec34fef93874964b6c4b13a3552c0f1",
 "splash_style.css": "0be488bcba16e79f23900cba1b657cc1",
 "version.json": "78e161f81f6945049f273ab515cd3566"
