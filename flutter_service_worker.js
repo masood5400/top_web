@@ -90,7 +90,7 @@ const RESOURCES = {
 "canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
 "canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
-"firebase-messaging-sw.js": "08223be5dbde565abab764d5e1a0c739",
+"firebase-messaging-sw.js": "7d39465afd80678f1090a4012fade46d",
 "icons/apple-touch-icon.png": "1a6aa37ab4e2d351ce031db4e24f32da",
 "icons/favicon-16x16.png": "5c5cd67b3b484147fac5551296407e95",
 "icons/favicon-32x32.png": "61928e1ff8b5b292dfac4eb6e06e8cfb",
