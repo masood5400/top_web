@@ -26871,8 +26871,8 @@ _.f=f},
 amI:function amI(a){this.a=a},
 a04:function a04(){},
 buP(a){var s=new A.CW(null,null)
-s.a="/content/icons/"
-s.b="/content/banners/"
+s.a="/top_web/content/icons/"
+s.b="/top_web/content/banners/"
 return s},
 CW:function CW(a,b){this.a=a
 this.b=b},
