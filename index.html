@@ -12,7 +12,7 @@
     For more details:
     * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
   -->
-  <base href="/top_web/" />
+  <base href="/" />
 
   <meta charset="UTF-8" />
   <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
@@ -33,6 +33,7 @@
   <link rel="manifest" href="manifest.json" />
   <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-messaging.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jsqr@1.4.0/dist/jsQR.min.js"></script>
 </head>
 
 <body>
@@ -62,6 +63,9 @@
     </div>
   </div>
   <script>
+    window.logger = (msg) => {
+      console.log(msg);
+    }
     const firebaseConfig = {
       apiKey: "AIzaSyCzwa0n9bxiRI3E8SiCRa2dYmjICiVZ5rA",
       authDomain: "novin-pardazesh.firebaseapp.com",
