@@ -271,7 +271,7 @@ const RESOURCES = {
 "icons/safari-pinned-tab.svg": "684c717817e0436f0d4e490d3c5f9fe9",
 "index.html": "6d6cd7d89f260bc644cb9f949844e8a9",
 "/": "6d6cd7d89f260bc644cb9f949844e8a9",
-"main.dart.js": "bc49b7ef12b33bf65f96834bf425964e",
+"main.dart.js": "3e6bf8d409a1e0ca057ea0d494651f13",
 "manifest.json": "aec34fef93874964b6c4b13a3552c0f1",
 "splash_style.css": "0be488bcba16e79f23900cba1b657cc1",
 "version.json": "2f479b760f4c0a06e4b72336fbbf7f6a"
