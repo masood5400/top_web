@@ -108735,7 +108735,7 @@ case 1:return A.j(q,r)}})
 return A.k($async$HE,r)},
 IG(){var s,r="appVersion",q=$.ks(),p=A.bpP(q.h(0,"navigator"))
 q.ld("logger",[p.h(0,r)])
-q=A.aO("Safari",!0,!1)
+q=A.aO("iPhone",!0,!1)
 s=p.h(0,r)
 if(q.b.test(s))return!J.q(p.h(0,"standalone"),!0)
 return!1}}
